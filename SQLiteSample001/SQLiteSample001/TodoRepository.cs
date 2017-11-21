@@ -7,6 +7,7 @@ namespace SQLiteSample005
     class TodoRepository
     {
 
+
         static readonly object Locker = new object();
         readonly SQLiteConnection _db;
 
