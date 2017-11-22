@@ -1,5 +1,5 @@
 ﻿using SQLite.Net;
-namespace SQLiteSample005
+namespace SQLiteSample001
 {
     public interface ISQLite
     {

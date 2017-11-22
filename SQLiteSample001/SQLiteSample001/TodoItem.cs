@@ -1,7 +1,7 @@
 ﻿using System;
 using SQLite.Net.Attributes;
 
-namespace SQLiteSample005
+namespace SQLiteSample001
 {
     public class TodoItem
     {

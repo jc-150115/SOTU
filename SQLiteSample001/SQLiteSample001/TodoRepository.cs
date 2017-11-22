@@ -2,7 +2,7 @@
 using SQLite.Net;
 using Xamarin.Forms;
 
-namespace SQLiteSample005
+namespace SQLiteSample001
 {
     class TodoRepository
     {

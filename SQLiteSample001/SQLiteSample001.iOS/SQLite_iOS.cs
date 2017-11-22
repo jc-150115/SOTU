@@ -2,11 +2,11 @@
 using System.IO;
 using SQLite.Net;
 using SQLite.Net.Platform.XamarinIOS;
-using SQLiteSample005.iOS;
+using SQLiteSample001.iOS;
 using Xamarin.Forms;
 
 [assembly: Dependency(typeof(SQLite_iOS))] // <-1
-namespace SQLiteSample005.iOS
+namespace SQLiteSample001.iOS
 {
     public class SQLite_iOS : ISQLite
     {

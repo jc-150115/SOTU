@@ -4,7 +4,7 @@ using System.Text;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace SQLiteSample005
+namespace SQLiteSample001
 {
     public partial class App : Application //partial付けた
     {
