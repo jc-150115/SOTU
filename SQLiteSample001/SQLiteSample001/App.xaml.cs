@@ -31,11 +31,11 @@ namespace SQLiteSample001
             listView.ItemTemplate.SetBinding(TextCell.TextProperty, "Text");
             //listView.ItemTemplate.SetBinding(TextCell.DetailProperty, new Binding("CreatedAt", stringFormat: "{0:yyy/MM/dd hh:mm}"));
             listView.ItemTemplate.SetBinding(TextCell.DetailProperty, new Binding("CreatedAt", stringFormat: "{yyyy/mm/dd}"));
-            listView.ItemTemplate.SetBinding(TextCell.TextProperty, "Text");//画像のバイナリデータを入れたいけど
+            listView.ItemTemplate.SetBinding(TextCell.TextProperty, "Text");//画像のバイナリデータを入れたいけ
 
             listView.ItemTapped += async (s, a) => {
                 var item = (TodoItem)a.Item;
-                if (await DisplayAlert("削除してい宜しいですか", item.Text, "OK", "キャンセル"))
+                if (await DisplayAlert("削除して宜しいですか", item.Text, "OK", "キャンセル"))
                 {
                     item.Delete = true; // 削除フラグを有効にして
                     _db.SaveItem(item); // データベースの更新
