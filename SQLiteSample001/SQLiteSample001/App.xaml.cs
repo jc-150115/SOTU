@@ -17,7 +17,7 @@ namespace SQLiteSample001
     class MyPage : ContentPage
     {
 
-        readonly TodoRepository _db = new TodoRepository();
+        readonly TodoRepository _db = new TodoRepository();//
 
         public MyPage()
         {
